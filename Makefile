@@ -36,4 +36,4 @@ clean:
 	rm -rf .terraform
 	rf -f output.json
 
-.PHONY: install init deploy invoke clean
+.PHONY: start install init deploy invoke clean
