@@ -1,6 +1,9 @@
 # LocalStack Lambda: https://docs.localstack.cloud/user-guide/aws/lambda/
 # Terraform with LocalStack: https://github.com/localstack/terraform-local
 
+start:
+	docker compose up
+
 # https://docs.aws.amazon.com/lambda/latest/dg/python-package.html#python-package-native-libraries
 # For Python packages without a compatible wheel distribution, you need to build the C/C++ libraries yourself, preferrably using Docker.
 install:
